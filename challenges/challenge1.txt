@@ -1,0 +1,17 @@
+Mad Lib File Exercise
+Write madlib3.py, a small modification of madlib2.py, requiring only a modification to the main function
+of madlib2.py. (Even better is to start from madlib2a.py if you did the exercise in Unique List Exercise
+(page 132)). Also create a file myMadlib.txt, as described below.
+Your madlib3.py should
+• Prompt the user for the name of a file that should contain a madlib format string as text (with no quotes around
+it).
+• Read in this file and use it as the format string in the tellStory function.
+This is unlike in madlib2.py, where the story is a literal string coded directly into the program, assigned to the variable
+originalStory. The tellstory function and particularly the getKeys function were developed and described
+in detail in this tutorial, but for this exercise there is no need to follow their inner workings - you are just a user of
+the tellstory function (and the functions that it calls). You do not need to mess with the code for the definition of
+tellStory or any of the earlier supporting functions – just keep them from the copy you made of madlib2.py for
+your madlib3.py. The original madlib string is already placed in a file jungle.txt as an example of the story file
+format expected. With the Idle editor, write another madlib format string into a file myMadlib.txt. If you earlier
+created a program myMadlib.py, then you can easily extract the story from there (without the quotes around it). Test
+your program madlib3.py twice, using jungle.txt and then your new madlib story file myMadlib.txt.
