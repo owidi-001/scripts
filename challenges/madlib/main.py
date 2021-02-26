@@ -19,12 +19,12 @@ def madLib(story,substitutes):
 
 
 if __name__ == "__main__":
-    substitutes=['jina','blaah','something','ok','tester']
-
     try:
+        substitutes=input('Enter a sentence to use as replacement').split(' ')
         file=input('Enter file name: \n')
         story=open(file,'r').read().split(' ')
     except IOError:
+        substitutes=['jina','blaah','something','ok','tester']
         story=open('file.txt','r').read().split(' ')
 
     madLib(story,substitutes)
